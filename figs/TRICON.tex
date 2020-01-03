@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\begin{tikzpicture}
+[scale =0.4,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+\node (B) at (6,0)[point,label=below :$B$] {};
+\node (P) at (2.666,2.981)[point,label=below :$P$] {};
+\node (Q) at (2.666,-2.981)[point,label=above :$Q$] {};
+\node (A) at (0,0)[point,label=below :$B$] {};
+\draw (0,0) node [below right] {.} circle (6);
+\draw (0,0) node [below right] {.} circle (4);
+\draw (B)--(A);
+\draw (A)--(Q);
+\draw (A)--(P);
+\draw (P)--(B);
+\draw (Q)--(B);
+
+\end{tikzpicture}
+\end{document}
