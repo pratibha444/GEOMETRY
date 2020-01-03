@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\mode<presentation>
+{
+  \usetheme{Madrid}      
+  \usecolortheme{seahorse} 
+  \usefonttheme{structureitalicserif} 
+  \setbeamertemplate{footline}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+\usepackage{tikz}
+\setbeamercovered{highly dynamic}
+
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{graphics}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Sharelatex Example},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+ 
+\urlstyle{same}
+\graphicspath{ {.//home/lenovo/codes/circle} }
+\usepackage{standalone}
+\usepackage{gensymb}
+\title[Your Short Title]{Excercise}
+\author{Pratibha}
+\institute{}
+\date{3 Jan 2020}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+\input{./questions/triangle/question2}
+
+\end{document}

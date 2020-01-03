@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\begin{tikzpicture}
+[scale =0.7,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+\node (P) at (0,0)[point,label=below :$P$] {};
+\node (Q) at (3,0)[point,label=below :$Q$] {};
+\node (R) at (5,3)[point,label=above :$R$] {};
+\node (S) at (2,3)[point,label=above :$S$] {};
+\node (A) at (3.35,3)[point,label=above :$A$] {};
+\draw (P)--(Q);
+\draw (Q)--(R);
+\draw (R)--(S);
+\draw (S)--(P);
+\draw (A)--(P);
+\draw (A)--(Q);
+\end{tikzpicture}
+\end{document}
