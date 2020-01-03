@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\begin{tikzpicture}
+[scale =0.7,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+\node (B) at (4.5,2)[point,label=below :$B$] {};
+\node (C) at (-4.5,-2)[point,label=below :$C$] {};
+\node (A) at (-4.5,2)[point,label=above :$A$] {};
+\node (D) at (4.5,-2)[point,label=below :$D$] {};
+\node (O) at (0,0)[point,label=above :$O$] {};
+\draw (0,0) node [below right] {.} circle (5);
+\draw (B)--(A);
+\draw (D)--(C);
+\draw (A)--(C);
+\draw (B)--(D);
+\tkzMarkRightAngle[fill=blue!20,size=0.3](A,C,D)
+\tkzLabelAngle[pos=0.65](A,C,D){$$}
+\end{tikzpicture}
+\end{document}
