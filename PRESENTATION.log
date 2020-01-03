@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  3 JAN 2020 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  3 JAN 2020 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1600,27 +1600,51 @@ thkerncmss.
 [2
 
 ]
-<./CODES/misc.png, id=80, 462.528pt x 346.896pt>
+<./CODES/misc.png, id=82, 462.528pt x 346.896pt>
 File: ./CODES/misc.png Graphic file (type png)
 <use ./CODES/misc.png>
-Package pdftex.def Info: ./CODES/misc.png  used on input line 25.
+Package pdftex.def Info: ./CODES/misc.png  used on input line 26.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
  [3
 
  <./CODES/misc.png>] [4
 
-]) (./questions/circle/QUESTION4.tex
-(./figs/TRICON.tex) [5
+]) (./questions/quad/question3.tex
+(./figs/FARM.tex)
+Overfull \vbox (0.89622pt too high) detected at line 19
+ []
+
+[5
+
+] [6
 
 ]
-<./CODES/circle/circon.png, id=164, 462.528pt x 346.896pt>
+<./CODES/quad/QUADCON.png, id=193, 462.528pt x 346.896pt>
+File: ./CODES/quad/QUADCON.png Graphic file (type png)
+<use ./CODES/quad/QUADCON.png>
+Package pdftex.def Info: ./CODES/quad/QUADCON.png  used on input line 44.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [7
+
+ <./CODES/quad/QUADCON.png>]) (./questions/circle/QUESTION4.tex
+(./figs/TRICON.tex) [8
+
+]
+<./CODES/circle/circon.png, id=251, 462.528pt x 346.896pt>
 File: ./CODES/circle/circon.png Graphic file (type png)
 <use ./CODES/circle/circon.png>
-Package pdftex.def Info: ./CODES/circle/circon.png  used on input line 18.
+Package pdftex.def Info: ./CODES/circle/circon.png  used on input line 22.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
- [6
+ [9
 
  <./CODES/circle/circon.png>])
+(./questions/triangle/QUESTION5.tex (./figs/tri_iso.tex)
+Overfull \vbox (3.92047pt too high) detected at line 16
+ []
+
+[10
+
+])
 \tf@nav=\write6
 \openout6 = `PRESENTATION.nav'.
 
@@ -1630,36 +1654,38 @@ Package pdftex.def Info: ./CODES/circle/circon.png  used on input line 18.
 \tf@snm=\write8
 \openout8 = `PRESENTATION.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./PRESENTATION.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `PRESENTATION.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27484 strings out of 494805
- 549686 string characters out of 6177999
- 661806 words of memory out of 5000000
- 30044 multiletter control sequences out of 15000+600000
- 18041 words of font info for 47 fonts, out of 8000000 for 9000
+ 27539 strings out of 494805
+ 550419 string characters out of 6177999
+ 664806 words of memory out of 5000000
+ 30075 multiletter control sequences out of 15000+600000
+ 18855 words of font info for 48 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  60i,14n,78p,798b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
-0pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.
-600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti060
-0.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
-095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
-i1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PRESENTATION.pdf (6 pages, 127274 bytes).
+ </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.60
+0pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.
+600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx109
+5.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0
+600.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s1095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cti1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on PRESENTATION.pdf (10 pages, 189907 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

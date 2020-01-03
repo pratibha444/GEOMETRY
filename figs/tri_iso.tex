@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\begin{document}
+\begin{tikzpicture}
+[scale =0.7,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+\node (B) at (0,0)[point,label=above :$B$] {};
+\node (A) at (5.324,3.728)[point,label=below :$A$] {};
+\node (C) at (10.64,0)[point,label=below :$C$] {};
+
+\draw (A)--(B);
+\draw (B)--(C);
+\draw (C)--(A);
+
+\end{tikzpicture}
+\end{document}
