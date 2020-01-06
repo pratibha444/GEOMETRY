@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  3 JAN 2020 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  5 JAN 2020 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,13 +148,27 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no : in font nullfont!
 
+Overfull \hbox (41.52756pt too wide) in paragraph at lines 10--11
+\OT1/cmr/bx/n/10 Solution 
+ []
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+
 ! LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \begin{figure}
+l.12 \begin{figure}
                    [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -166,7 +180,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.12 \resizebox
+l.13 \resizebox
                {0.2\linewidth}{!}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -180,7 +194,7 @@ Missing character: There is no 2 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.12 \resizebox{0.2\linewidth}
+l.13 \resizebox{0.2\linewidth}
                               {!}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -189,7 +203,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.12 \resizebox{0.2\linewidth}
+l.13 \resizebox{0.2\linewidth}
                               {!}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -209,7 +223,7 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.14 \input{./figs/clock.tex}
+l.15 \input{./figs/clock.tex}
                              ^^M
 *** (cannot \read from terminal in nonstop modes)
 

@@ -17,9 +17,7 @@ a = 5
 b = 6
 angD = np.pi/180*85
 c = np.sqrt(a**2+b**2-2*a*b*np.cos(angD))
-x=2.5
-y=6
-z=6
+
 
 print(c)
 
@@ -31,65 +29,67 @@ print(p,q)
 
 
 #Parallelogram vertices
-D = np.array([p,q]) 
-B = np.array([0,0]) 
-C = np.array([a,0]) 
+R = np.array([p,q]) 
+P = np.array([0,0]) 
+Q = np.array([a,0]) 
 
 #Mid point of BD
-O =(B+D)/2
+O =(P+R)/2
 
 
 #Finding A
-A = 2*O-C
-F = (A+D)/2
+S = 2*O-Q
+print(S)
+A = (S+R)/2
+print(A)
 
 
 #Triangle vertices
-BFC= tri_vert(a,b,c)
-G =  alt_foot(F,B,C)
-ABF= tri_vert(a,b,c)
-T =  alt_foot(A,B,F)
+PAQ= tri_vert(a,b,c)
+G =  alt_foot(A,P,Q)
+print(G)
+
 
 #Normal vectors of AD and BE
-n1 = B-C
-n1 = A-F
+n1 = P-Q
 
 
 
 
-print(D)
+
+print(R)
 #Generating all lines
-x_AB = line_gen(A,B)
-x_BC = line_gen(B,C)
-x_FB = line_gen(F,B)
-x_FC = line_gen(F,C)
-x_FG = line_gen(F,G)
+x_SP = line_gen(S,P)
+x_PQ = line_gen(P,Q)
+x_QR = line_gen(Q,R)
+x_RS = line_gen(R,S)
+x_AP = line_gen(A,P)
 
 
-x_AD = line_gen(A,D)
-x_CD = line_gen(C,D)
+x_AQ = line_gen(A,Q)
+x_AG = line_gen(A,G)
 
 #Plotting all lines
-plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
-plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
-plt.plot(x_FC[0,:],x_FC[1,:],label='$FC$')
-plt.plot(x_FB[0,:],x_FB[1,:],label='$FB$')
-plt.plot(x_FG[0,:],x_FG[1,:],label='$FG$')
-plt.plot(x_AD[0,:],x_AD[1,:],label='$AD$')
-plt.plot(x_CD[0,:],x_CD[1,:],label='$CD$')
+plt.plot(x_SP[0,:],x_SP[1,:],label='$SP$')
+plt.plot(x_PQ[0,:],x_PQ[1,:],label='$PQ$')
+plt.plot(x_QR[0,:],x_QR[1,:],label='$QR$')
+plt.plot(x_RS[0,:],x_RS[1,:],label='$RS$')
+plt.plot(x_AP[0,:],x_AP[1,:],label='$AP$')
+plt.plot(x_AQ[0,:],x_AQ[1,:],label='$AQ$')
+plt.plot(x_AG[0,:],x_AG[1,:],label='$AG$')
 
+plt.plot(P[0], P[1], 'o')
+plt.text(P[0] * (1 + 0.1), P[1] * (1 - 0.1) , 'P(0,0)')
+plt.plot(Q[0], Q[1], 'o')
+plt.text(Q[0] * (1 - 0.2), Q[1] * (1) , 'Q(5,0)')
+plt.plot(R[0], R[1], 'o')
+plt.text(R[0] * (1 + 0.03), R[1] * (1 - 0.05) , 'R(4.477,5.97)')
+plt.plot(S[0], S[1], 'o')
+plt.text(S[0] * (1 + 0.03), S[1] * (1 - 0.05) , 'S(-0.52,5.97)')
 plt.plot(A[0], A[1], 'o')
-plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
-plt.plot(B[0], B[1], 'o')
-plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B')
-plt.plot(C[0], C[1], 'o')
-plt.text(C[0] * (1 + 0.03), C[1] * (1 - 0.1) , 'C')
-plt.plot(D[0], D[1], 'o')
-plt.text(D[0] * (1 + 0.03), D[1] * (1 - 0.1) , 'D')
-plt.plot(F[0], F[1], 'o')
-plt.text(F[0] * (1 + 0.03), F[1] * (1 - 0.1) , 'F')
+plt.text(A[0] * (1 + 0.03), A[1] * (1 - 0.03) , 'A(1.977,5.977)')
 plt.plot(G[0], G[1], 'o')
-plt.text(G[0] * (1 + 0.03), G[1] * (1 - 0.1) , 'G')
+plt.text(G[0] * (1 + 0.03), G[1] * (1 - 0.1) , 'G(1.977,0)')
 
 
 

@@ -7,9 +7,9 @@ from coeffs import *
 #import shlex
 #end if
 r1=5
-b=8
+b=5
 d=r1
-e=np.sqrt(8**2-r1**2)
+e=np.sqrt(5**2-r1**2)
 len = 50
 B = np.array([0,0])
 C = np.array([5,0])
@@ -22,7 +22,7 @@ print(A)
 
 O=np.array([0,0])
 
-O1=np.array([8,0])
+O1=np.array([5,0])
 
  
 theta = np.linspace(0,2*np.pi,len)

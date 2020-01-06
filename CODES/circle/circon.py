@@ -59,13 +59,13 @@ plt.plot(x_AQ[0,:],x_AQ[1,:],label='$AQ$')
 
 
 plt.plot(A[0], A[1], 'o')
-plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
+plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A(0,0)')
 plt.plot(B[0], B[1], 'o')
-plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B')
+plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B(6,0)')
 plt.plot(P[0], P[1], 'o')
-plt.text(P[0] * (1 - 0.2), P[1] * (1) , 'P')
+plt.text(P[0] * (1 - 0.2), P[1] * (1) , 'P(2.66,2.98)')
 plt.plot(Q[0], Q[1], 'o')
-plt.text(Q[0] * (1 - 0.2), Q[1] * (1) , 'Q')
+plt.text(Q[0] * (1 - 0.2), Q[1] * (1) , 'Q(2.66,-2.98)')
 
 
 plt.xlabel('$x$')

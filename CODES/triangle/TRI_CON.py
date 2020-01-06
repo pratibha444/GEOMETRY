@@ -11,11 +11,11 @@ import shlex
 
 #Triangle sides
 #a = 6
-b = 6.5
+a = 6.5
 c = 6.5
 angA = 110*np.pi/180
-a = np.sqrt(b**2+c**2 - 2*b*c*np.cos(angA))
-print(a)
+b = np.sqrt(a**2+c**2 - 2*a*c*np.cos(angA))
+print(b)
 #Coordinates of A
 p = (a**2 + c**2-b**2 )/(2*a)
 q = np.sqrt(c**2-p**2)
@@ -36,11 +36,11 @@ plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
 plt.plot(x_CA[0,:],x_CA[1,:],label='$CA$')
 
 plt.plot(A[0], A[1], 'o')
-plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.1) , 'A')
+plt.text(A[0] * (1 + 0.1), A[1] * (1 - 0.01) , 'A(-2.22,6.10)')
 plt.plot(B[0], B[1], 'o')
-plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B')
+plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B(0,0)')
 plt.plot(C[0], C[1], 'o')
-plt.text(C[0] * (1 + 0.03), C[1] * (1 - 0.1) , 'C')
+plt.text(C[0] * (1 + 0.03), C[1] * (0.5 - 0.1) , 'C(6.5,0)')
 
 plt.xlabel('$x$')
 plt.ylabel('$y$')

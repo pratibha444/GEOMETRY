@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  3 JAN 2020 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.20)  6 JAN 2020 06:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1600,47 +1600,84 @@ thkerncmss.
 [2
 
 ]
-<./CODES/misc.png, id=81, 462.528pt x 346.896pt>
-File: ./CODES/misc.png Graphic file (type png)
-<use ./CODES/misc.png>
-Package pdftex.def Info: ./CODES/misc.png  used on input line 26.
+<./CODES/MISC.png, id=79, 462.528pt x 346.896pt>
+File: ./CODES/MISC.png Graphic file (type png)
+<use ./CODES/MISC.png>
+Package pdftex.def Info: ./CODES/MISC.png  used on input line 27.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
  [3
 
- <./CODES/misc.png>] [4
+ <./CODES/MISC.png>] [4
 
-]) (./questions/quad/question3.tex
-(./figs/FARM.tex)
-Overfull \vbox (0.89622pt too high) detected at line 19
+]) (./questions/circle/QUESTION4.tex
+(./figs/CIRCLE_CON.tex) [5
+
+]
+<./CODES/circle/CIR_CON.png, id=165, 462.528pt x 346.896pt>
+File: ./CODES/circle/CIR_CON.png Graphic file (type png)
+<use ./CODES/circle/CIR_CON.png>
+Package pdftex.def Info: ./CODES/circle/CIR_CON.png  used on input line 23.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+ [6
+
+ <./CODES/circle/CIR_CON.png>])
+(./questions/triangle/QUESTION5.tex (./figs/tri_iso.tex)
+Overfull \vbox (5.47139pt too high) detected at line 14
  []
 
-[5
-
-] [6
+[7
 
 ]
-<./CODES/quad/QUADCON.png, id=191, 462.528pt x 346.896pt>
-File: ./CODES/quad/QUADCON.png Graphic file (type png)
-<use ./CODES/quad/QUADCON.png>
-Package pdftex.def Info: ./CODES/quad/QUADCON.png  used on input line 44.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [7
-
- <./CODES/quad/QUADCON.png>]) (./questions/circle/QUESTION4.tex
-(./figs/TRICON.tex) [8
-
-]
-<./CODES/circle/circon.png, id=249, 462.528pt x 346.896pt>
-File: ./CODES/circle/circon.png Graphic file (type png)
-<use ./CODES/circle/circon.png>
-Package pdftex.def Info: ./CODES/circle/circon.png  used on input line 22.
+<./CODES/triangle/TRI_CON.png, id=223, 462.528pt x 346.896pt>
+File: ./CODES/triangle/TRI_CON.png Graphic file (type png)
+<use ./CODES/triangle/TRI_CON.png>
+Package pdftex.def Info: ./CODES/triangle/TRI_CON.png  used on input line 24.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
- [9
+ [8
 
- <./CODES/circle/circon.png>])
-(./questions/triangle/QUESTION5.tex (./figs/tri_iso.tex) [10
+ <./CODES/triangle/TRI_CON.png>]) (./questions/quad/question3.tex
+(./figs/FARM.tex) [9
+
+] [10
 
 ] [11
+
+]
+<./CODES/quad/QUAD_EX.png, id=331, 462.528pt x 346.896pt>
+File: ./CODES/quad/QUAD_EX.png Graphic file (type png)
+<use ./CODES/quad/QUAD_EX.png>
+Package pdftex.def Info: ./CODES/quad/QUAD_EX.png  used on input line 54.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [12
+
+ <./CODES/quad/QUAD_EX.png>])
+(./questions/circle/QUESTION7.tex (./figs/CYCPA.tex) [13
+
+]
+<./CODES/quad/QUAD_P.png, id=389, 462.528pt x 346.896pt>
+File: ./CODES/quad/QUAD_P.png Graphic file (type png)
+<use ./CODES/quad/QUAD_P.png>
+Package pdftex.def Info: ./CODES/quad/QUAD_P.png  used on input line 19.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+ [14
+
+ <./CODES/quad/QUAD_P.png>] [15
+
+]) (./questions/triangle/question8.tex (./figs/TRI_EX.tex)
+[16
+
+]
+<./CODES/triangle/tri_ex.png, id=470, 462.528pt x 346.896pt>
+File: ./CODES/triangle/tri_ex.png Graphic file (type png)
+<use ./CODES/triangle/tri_ex.png>
+Package pdftex.def Info: ./CODES/triangle/tri_ex.png  used on input line 19.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+ <./CODES/triangle/tri_ex.png>] [18]) (./questions/quad/question9.tex [19
 
 ])
 \tf@nav=\write6
@@ -1652,39 +1689,44 @@ Package pdftex.def Info: ./CODES/circle/circon.png  used on input line 22.
 \tf@snm=\write8
 \openout8 = `PRESENTATION.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
 (./PRESENTATION.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `PRESENTATION.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27527 strings out of 494805
- 550326 string characters out of 6177999
- 663806 words of memory out of 5000000
- 30061 multiletter control sequences out of 15000+600000
- 18855 words of font info for 48 fonts, out of 8000000 for 9000
+ 27753 strings out of 494805
+ 554446 string characters out of 6177999
+ 666805 words of memory out of 5000000
+ 30242 multiletter control sequences out of 15000+600000
+ 29518 words of font info for 71 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 60i,14n,78p,798b,1255s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.60
-0pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.
-600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx109
-5.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0
-600.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cti1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on PRESENTATION.pdf (11 pages, 188980 bytes).
+ 60i,14n,78p,798b,1275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.60
+0pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.
+600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss060
+0.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
+095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+i1095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+css0800.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecsx1095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecti0600.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecss1095.600pk> </home/lenovo/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecti1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on PRESENTATION.pdf (19 pages, 306636 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 23 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 559 compressed objects within 6 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
