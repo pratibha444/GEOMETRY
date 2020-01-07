@@ -11,10 +11,11 @@ r2=6
 a=np.sqrt(6**2-r1**2)
 c=r1
 b=r2
+print(a)
 
 len = 50
 A = np.array([0,0])
-B = np.array([6,0])
+B = np.array([r2,0])
 
 #Coordinates of P & Q
 p = (b**2 + c**2-a**2 )/(2*b)

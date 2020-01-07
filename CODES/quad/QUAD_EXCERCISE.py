@@ -32,7 +32,7 @@ print(p,q)
 R = np.array([p,q]) 
 P = np.array([0,0]) 
 Q = np.array([a,0]) 
-
+A = np.array([3,6]) 
 #Mid point of BD
 O =(P+R)/2
 
@@ -40,8 +40,7 @@ O =(P+R)/2
 #Finding A
 S = 2*O-Q
 print(S)
-A = (S+R)/2
-print(A)
+
 
 
 #Triangle vertices
@@ -87,9 +86,9 @@ plt.text(R[0] * (1 + 0.03), R[1] * (1 - 0.05) , 'R(4.477,5.97)')
 plt.plot(S[0], S[1], 'o')
 plt.text(S[0] * (1 + 0.03), S[1] * (1 - 0.05) , 'S(-0.52,5.97)')
 plt.plot(A[0], A[1], 'o')
-plt.text(A[0] * (1 + 0.03), A[1] * (1 - 0.03) , 'A(1.977,5.977)')
+plt.text(A[0] * (1 + 0.03), A[1] * (1 - 0.03) , 'A(3,6)')
 plt.plot(G[0], G[1], 'o')
-plt.text(G[0] * (1 + 0.03), G[1] * (1 - 0.1) , 'G(1.977,0)')
+plt.text(G[0] * (1 + 0.03), G[1] * (1 - 0.03) , 'G(3,0)')
 
 
 
