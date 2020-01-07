@@ -11,24 +11,24 @@
 \begin{tikzpicture}[scale=0.7]
 
 %Triangle sides
-\def\a{4}
-\def\c{4}
-\def\b{4.58}
+\def\a{6.5}
+\def\c{6.5}
+\def\b{10.64}
 
 %Marking coordiantes
-\coordinate [label=above:$A$] (A) at (2.29,3.74);
+\coordinate [label=above:$A$] (A) at (-2.22,6.10);
 \coordinate [label=left:$B$] (B) at (0,0);
-\coordinate [label=right:$C$] (C) at (4.58,0);
-\coordinate [label=left:$P$] (P) at (-0.7,-1);
-\coordinate [label=right:$Q$] (Q) at (5.3,-1);
+\coordinate [label=right:$C$] (C) at (6.5,0);
+\coordinate [label=left:$P$] (P) at (1,-2.2);
+\coordinate [label=right:$Q$] (Q) at (9.2,-2);
 
 %Drawing triangle ABC
 \draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,,xshift=2mm] {$\textrm{b}$} (A);\draw (B)--(P);
 \draw (C)--(Q);
 %Drawing and marking angles
-\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](A,C,B)
-\tkzLabelAngle[pos=0.65](A,C,B){$55$}
-\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](C,B,A)
-\tkzLabelAngle[pos=0.65](C,B,A){$70$}
+\tkzMarkAngle[fill=green!40,size=0.5cm,mark=](C,B,A)
+\tkzLabelAngle[pos=1](C,B,A){\rotatebox{-360}{$110$}}
+
+
 \end{tikzpicture}
 \end{document}
