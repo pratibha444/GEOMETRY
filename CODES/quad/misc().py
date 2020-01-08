@@ -11,16 +11,15 @@ from coeffs import *
 len = 50
 r1 = 4
 a=2
-c=4
-b=np.sqrt(c**2-a**2)
-print(b)
+b=4
+c=np.sqrt(b**2-a**2)
+print(c)
 
-
-S = np.array([-a,b]) 
-R = np.array([a,b]) 
+S= np.array([-a,c]) 
+R = np.array([a,c]) 
 O=np.array([0,0])
-Q=np.array([a,-b])
-P = np.array([-a,-b]) 
+Q=np.array([a,-c])
+P = np.array([-a,-c]) 
 
 
 theta = np.linspace(0,2*np.pi,len)
@@ -47,7 +46,7 @@ plt.text(P[0] * (1 + 0.1), P[1] * (1 - 0.1) , 'P(-2,-3.46)')
 plt.plot(Q[0], Q[1], 'o')
 plt.text(Q[0] * (1 - 0.2), Q[1] * (1) , 'Q(2,-3.46)')
 plt.plot(R[0], R[1], 'o')
-plt.text(R[0] * (1 + 0.03), R[1] * (1 - 0.1) , 'R(2,3.36)')
+plt.text(R[0] * (1 + 0.03), R[1] * (1 - 0.1) , 'R(2,3.46)')
 plt.plot(S[0], S[1], 'o')
 plt.text(S[0] * (1 + 0.03), S[1] * (1 - 0.1) , 'S(-2,3.46)')
 
@@ -62,7 +61,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/circle/circumcircle.pdf')
-plt.savefig('../../figs/QUAD_P.eps')
+#plt.savefig('./figs/circle/circumcircle.eps')
 #subprocess.run(shlex.split("termux-open ./figs/circle/circumcircle.pdf"))
 #else
 plt.show()

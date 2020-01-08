@@ -50,7 +50,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/triangle/tri_sss.pdf')
-#plt.savefig('./figs/triangle/tri_sss.eps')
+plt.savefig('../../figs/TRI_CON.eps')
 #subprocess.run(shlex.split("termux-open ./figs/triangle/tri_sss.pdf"))
 #else
 plt.show()

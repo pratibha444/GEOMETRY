@@ -10,17 +10,15 @@ from coeffs import *
 
 len = 50
 r1 = 4
-a=2
+a=3
 c=4
-b=np.sqrt(c**2-a**2)
-print(b)
-
-
-S = np.array([-a,b]) 
-R = np.array([a,b]) 
+b=np.sqrt(a**2+c**2)
+x=np.sqrt(b**2-a**2)
+S = np.array([-2,3.46]) 
+R = np.array([2,3.46]) 
 O=np.array([0,0])
-Q=np.array([a,-b])
-P = np.array([-a,-b]) 
+Q=np.array([2,-3.46])
+P = np.array([-2,-3.46]) 
 
 
 theta = np.linspace(0,2*np.pi,len)
@@ -62,7 +60,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/circle/circumcircle.pdf')
-plt.savefig('../../figs/QUAD_P.eps')
+#plt.savefig('./figs/circle/circumcircle.eps')
 #subprocess.run(shlex.split("termux-open ./figs/circle/circumcircle.pdf"))
 #else
 plt.show()

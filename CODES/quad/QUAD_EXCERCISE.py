@@ -31,8 +31,9 @@ print(p,q)
 #Parallelogram vertices
 R = np.array([p,q]) 
 P = np.array([0,0]) 
-Q = np.array([a,0]) 
-A = np.array([3,6]) 
+Q = np.array([a,0])
+k=0.4
+
 #Mid point of BD
 O =(P+R)/2
 
@@ -40,8 +41,8 @@ O =(P+R)/2
 #Finding A
 S = 2*O-Q
 print(S)
-
-
+A = (k*S+R)/(k+1)
+print(A)
 
 #Triangle vertices
 PAQ= tri_vert(a,b,c)
@@ -80,15 +81,15 @@ plt.plot(x_AG[0,:],x_AG[1,:],label='$AG$')
 plt.plot(P[0], P[1], 'o')
 plt.text(P[0] * (1 + 0.1), P[1] * (1 - 0.1) , 'P(0,0)')
 plt.plot(Q[0], Q[1], 'o')
-plt.text(Q[0] * (1 - 0.2), Q[1] * (1) , 'Q(5,0)')
+plt.text(Q[0] * (1 - 0.01), Q[1] * (1 - 4) , 'Q(5,0)')
 plt.plot(R[0], R[1], 'o')
 plt.text(R[0] * (1 + 0.03), R[1] * (1 - 0.05) , 'R(4.477,5.97)')
 plt.plot(S[0], S[1], 'o')
 plt.text(S[0] * (1 + 0.03), S[1] * (1 - 0.05) , 'S(-0.52,5.97)')
 plt.plot(A[0], A[1], 'o')
-plt.text(A[0] * (1 + 0.03), A[1] * (1 - 0.03) , 'A(3,6)')
+plt.text(A[0] * (1 + 0.03), A[1] * (1 - 0.03) , 'A(3.04,5.97)')
 plt.plot(G[0], G[1], 'o')
-plt.text(G[0] * (1 + 0.03), G[1] * (1 - 0.03) , 'G(3,0)')
+plt.text(G[0] * (1 + 0.001), G[1] * (1 - 0.05) , 'G(3.04,0)')
 
 
 
@@ -100,7 +101,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/quad/pgm_sss.pdf')
-#plt.savefig('./figs/quad/pgm_sss.eps')
+plt.savefig('../../figs/farme.eps')
 #subprocess.run(shlex.split("termux-open ./figs/quad/pgm_sss.pdf"))
 #else
 plt.show()

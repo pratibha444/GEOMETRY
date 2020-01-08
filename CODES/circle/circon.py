@@ -74,4 +74,8 @@ plt.ylabel('$y$')
 plt.legend(loc='upper right')
 plt.grid() # minor
 plt.axis('equal')
+plt.savefig('../../figs/CIR_CON.eps')
+#subprocess.run(shlex.split("termux-open ./figs/quad/pgm_sss.pdf"))
+#else
+
 plt.show()

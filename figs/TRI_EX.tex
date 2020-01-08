@@ -26,9 +26,11 @@
 \draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,,xshift=2mm] {$\textrm{b}$} (A);\draw (B)--(P);
 \draw (C)--(Q);
 %Drawing and marking angles
-\tkzMarkAngle[fill=green!40,size=0.5cm,mark=](C,B,A)
-\tkzLabelAngle[pos=1](C,B,A){\rotatebox{-360}{$110$}}
+\tkzMarkAngle[arc=l,size=1,color=black](A,C,B)
+\tkzLabelAngle[pos=1.5](A,C,B){\rotatebox{360}{$35$}}
 
+\tkzMarkAngle[fill=white!40,size=0.5cm,mark=](C,B,A)
+\tkzLabelAngle[pos=1](C,B,A){\rotatebox{-360}{$110$}}
 
 \end{tikzpicture}
 \end{document}
