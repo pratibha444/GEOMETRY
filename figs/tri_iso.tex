@@ -1,20 +1,11 @@
-\documentclass{article}
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
-\usepackage{tkz-euclide}
-\usetkzobj{all}
-\begin{document}
 \begin{tikzpicture}
 [scale =0.6,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
 \node (B) at (0,0)[point,label=below :$B$] {};
 \node (A) at (-2.223,6.108)[point,label=above :$A$] {};
 \node (C) at (6.5,0)[point,label=below :$C$] {};
-
 \draw (A)--(B);
 \draw (B)--(C);
 \draw (C)--(A);
 \tkzMarkAngle[fill=green!40,size=0.5cm,mark=](C,B,A)
 \tkzLabelAngle[pos=1](C,B,A){\rotatebox{-360}{$110$}}
-
 \end{tikzpicture}
-\end{document}

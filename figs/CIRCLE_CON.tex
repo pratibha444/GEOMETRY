@@ -1,9 +1,3 @@
-\documentclass{article}
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
-\usepackage{tkz-euclide}
-\usetkzobj{all}
-\begin{document}
 \begin{tikzpicture}
 [scale =0.3,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
 \node (A) at (0,0)[point,label=below :$A$] {};
@@ -19,7 +13,4 @@
 \draw (A)--(Q);
 \tkzMarkRightAngle[fill=white!45,size=.6,mark=](B,P,A)
 \tkzMarkRightAngle[fill=white!45,size=.6,mark=](B,Q,A)
-
-
 \end{tikzpicture}
-\end{document}
